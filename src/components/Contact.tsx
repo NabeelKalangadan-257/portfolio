@@ -5,26 +5,26 @@ export default function Contact() {
     {
       icon: Mail,
       label: 'Email',
-      value: 'muhammednabeel@example.com',
-      link: 'mailto:muhammednabeel@example.com'
+      value: 'muhammednabeelk570@gmail.com',
+      link: 'mailto:muhammednabeelk570@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+91 XXXXX XXXXX',
-      link: 'tel:+91XXXXXXXXXX'
+      value: '+91 8590535628',
+      link: 'tel:+918590535628'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
       value: 'linkedin.com/in/muhammednabeel',
-      link: 'https://linkedin.com/in/muhammednabeel'
+      link: 'https://www.linkedin.com/in/muhammed-nabeel-k-584561289'
     },
     {
       icon: Github,
       label: 'GitHub',
       value: 'github.com/muhammednabeel',
-      link: 'https://github.com/muhammednabeel'
+      link: 'https://github.com/NabeelKalangadan-257'
     },
     {
       icon: MapPin,
@@ -91,7 +91,7 @@ export default function Contact() {
                 <input
                   type="email"
                   className="w-full px-4 py-3 bg-gray-900 border border-gray-700 rounded-lg text-white focus:border-indigo-500 focus:outline-none transition-colors"
-                  placeholder="your.email@example.com"
+                  placeholder=""
                 />
               </div>
 
