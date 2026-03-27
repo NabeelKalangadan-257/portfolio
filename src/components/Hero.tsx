@@ -20,21 +20,25 @@ export default function Hero() {
             <button className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl font-medium transition-all duration-300 flex items-center gap-2 shadow-lg hover:shadow-indigo-500/50">
               View Projects <ArrowRight size={18} />
             </button>
-            <button className="px-6 py-3 bg-gray-800 hover:bg-gray-700 text-white rounded-xl font-medium transition-all duration-300 flex items-center gap-2 border border-gray-700">
+            <a 
+              href="/nabeel.pdf" 
+              download 
+              className="px-6 py-3 bg-gray-800 hover:bg-gray-700 text-white rounded-xl font-medium transition-all duration-300 flex items-center gap-2 border border-gray-700"
+            >
               <Download size={18} /> Download Resume
-            </button>
+            </a>
           </div>
 
           <div className="flex gap-4 pt-4">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+            <a href="https://github.com/NabeelKalangadan-257" target="_blank" rel="noopener noreferrer"
                className="p-3 bg-gray-800 hover:bg-gray-700 rounded-lg transition-all duration-300 text-gray-300 hover:text-white">
               <Github size={24} />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+            <a href="https://www.linkedin.com/in/muhammed-nabeel-k-584561289" target="_blank" rel="noopener noreferrer"
                className="p-3 bg-gray-800 hover:bg-gray-700 rounded-lg transition-all duration-300 text-gray-300 hover:text-white">
               <Linkedin size={24} />
             </a>
-            <a href="mailto:muhammednabeel@example.com"
+            <a href="mailto:muhammednabeelk570@gmail.com"
                className="p-3 bg-gray-800 hover:bg-gray-700 rounded-lg transition-all duration-300 text-gray-300 hover:text-white">
               <Mail size={24} />
             </a>
